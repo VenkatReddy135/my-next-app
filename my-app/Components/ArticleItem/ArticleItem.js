@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import styles from "../ArticleList/ArticleList.module.css";
 const ArticleItem = ({ article }) => {
-  console.log(article.id);
   console.log(article);
   return (
     <Link href={`/article/${article.id}`}>
