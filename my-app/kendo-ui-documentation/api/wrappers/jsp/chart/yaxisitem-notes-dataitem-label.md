@@ -1,0 +1,140 @@
+---
+title: chart-yAxisItem-notes-dataItem-label
+slug: jsp-chart-yAxisItem-notes-dataItem-label
+tags: api, java
+publish: true
+---
+
+# \<kendo:chart-yAxisItem-notes-dataItem-label\>
+
+The label of the note.
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem>
+        <kendo:chart-yAxisItem-notes-dataItem-label></kendo:chart-yAxisItem-notes-dataItem-label>
+    </kendo:chart-yAxisItem-notes-dataItem>
+
+## Configuration Attributes
+
+### background `java.lang.String`
+
+The background color of the label. Accepts a valid CSS color string, including hex and rgb.
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem-label background="background">
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+
+### color `java.lang.String`
+
+The text color of the note label. Accepts a valid CSS color string, including hex and rgb.
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem-label color="color">
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+
+### font `java.lang.String`
+
+The font style of the note label.
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem-label font="font">
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+
+### format `java.lang.String`
+
+The format used to display the note label. Uses kendo.format. Contains one placeholder ("{0}") which represents the axis value.
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem-label format="format">
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+
+### position `java.lang.String`
+
+The position of the y axis note label.
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem-label position="position">
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+
+### rotation `float`
+
+The rotation angle of the label. By default the label are not rotated.
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem-label rotation="rotation">
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+
+### template `java.lang.String`
+
+The template which renders the labels.The fields which can be used in the template are:
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem-label template="template">
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+
+### text `java.lang.String`
+
+The label note text.
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem-label text="text">
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+
+### visible `boolean`
+
+If set to true the chart will display the y axis notes label. By default the y axis notes label are visible.
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem-label visible="visible">
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+
+
+##  Configuration JSP Tags
+
+### kendo:chart-yAxisItem-notes-dataItem-label-border
+
+The border of the label.
+
+More documentation is available at [kendo:chart-yAxisItem-notes-dataItem-label-border](chart/yaxisitem-notes-dataitem-label-border).
+
+#### Example
+
+    <kendo:chart-yAxisItem-notes-dataItem-label>
+        <kendo:chart-yAxisItem-notes-dataItem-label-border></kendo:chart-yAxisItem-notes-dataItem-label-border>
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+
+
+## Event Attributes
+
+### template `String`
+
+The template which renders the labels.The fields which can be used in the template are:
+
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem-label template="handle_template">
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+    <script>
+        function handle_template(e) {
+            // Code to handle the template event.
+        }
+    </script>
+
+## Event Tags
+
+### kendo:chart-yAxisItem-notes-dataItem-label-template
+
+The template which renders the labels.The fields which can be used in the template are:
+
+
+#### Example
+    <kendo:chart-yAxisItem-notes-dataItem-label>
+        <kendo:chart-yAxisItem-notes-dataItem-label-template>
+            <script>
+                function(e) {
+                    // Code to handle the template event.
+                }
+            </script>
+        </kendo:chart-yAxisItem-notes-dataItem-label-template>
+    </kendo:chart-yAxisItem-notes-dataItem-label>
+
